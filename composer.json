@@ -1,0 +1,21 @@
+{
+  "name": "dez-php/dez-utils",
+  "description": "Utils & Helpers",
+  "keywords": ["php utils", "utils", "dez-php utils"],
+  "authors": [
+    {
+      "name": "Ivan Gontarenko",
+      "email": "vania.gontarenko@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": ">=5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dez\\Utils\\": "src/Utils"
+    }
+  }
+}
